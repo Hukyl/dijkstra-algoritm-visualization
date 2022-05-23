@@ -2,8 +2,13 @@
 A visualization for Dijsktra's algorithm on Python Tkinter
 
 
-Algorithm shows the cheapest way from the first node to the last one by number (sadly, not the one you choose after adding the nodes).
+Algorithm shows the cheapest way between two specified nodes.
 
-Program can import and export `*.pickle` files. After the graph was solved, it should be reimported or reset and replaced.
+Program can import and export `*.pickle` graphs. After the graph was solved, it should be redrawn.
+Lines can be reassigned and new nodes can be added, however old nodes can not be deleted or moved.
+In order to create a new graph, you should reset the canvas.
 
-However, lines can be reassigned.
+
+## Requirements
+* Python 3.9
+* Tkinter
